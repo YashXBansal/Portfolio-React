@@ -16,7 +16,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch("http://localhost:3000/api/contact", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -25,10 +25,9 @@ function Contact() {
       });
 
       if (response.ok) {
-        // Form submission successful, handle response
-        console.log('Form submitted successfully!');
+        alert('Form Submitted Successfully');
       } else {
-        // Form submission failed, handle error
+        alert('form not submitted');
         console.error('Form submission failed.');
       }
     } catch (error) {
