@@ -21,8 +21,8 @@ function Hero() {
         </h1>
         <p className="text-lg md:text-xl leading-relaxed mb-8 text-yellow-300 font-serif">
           Hi, I'm Yash, a passionate developer with a keen interest in
-          technology. Welcome to my portfolio website where I showcase my
-          projects and share my journey.
+          technology. Welcome to my portfolio website where I have showcased my
+          projects and shared my journey.
         </p>
         {/* <div className="flex flex-col items-center gap-4">
         
