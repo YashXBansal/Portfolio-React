@@ -10,6 +10,8 @@ import postgresImage from "../assets/svgs/postgresql.svg";
 import expressImage from "../assets/svgs/express.svg";
 import myImage from "../assets/Me1.jpg";
 import Education from "./Education";
+import Contact from "./Contact";
+
 function About() {
   const techStack = [
     { image: jsImage, text: "JavaScript" },
@@ -93,6 +95,7 @@ function About() {
         </div>
       </div>
       <Education />
+      <Contact/>
     </div>
   );
 }
