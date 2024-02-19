@@ -1,0 +1,41 @@
+.nav-container {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .nav-container.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  
+  .logo {
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: gray;
+  }
+  
+/* Nav.css */
+
+.nav-container {
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.nav-menu-button {
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.nav-drawer {
+  padding: 20px; /* Adjust the padding as needed */
+}
+
