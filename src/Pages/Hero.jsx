@@ -10,7 +10,7 @@ function Hero() {
         backgroundImage: `url(${backgroundImageMobile})`,
         backgroundSize: "cover",
         backgroundPosition: "top",
-        backgroundPositionY: "20%",
+        backgroundPositionY: "18%",
       }}
     >
       <div className="absolute inset-0 opacity-80"></div>
@@ -19,15 +19,13 @@ function Hero() {
         <h1 className="text-4xl md:text-6xl font-serif font-bold leading-tight mb-4 text-yellow-400">
           Welcome to My Portfolio
         </h1>
-        <p className="text-lg md:text-xl leading-relaxed mb-8 text-gray-300">
+        <p className="text-lg md:text-xl leading-relaxed mb-8 text-yellow-300 font-serif">
           Hi, I'm Yash, a passionate developer with a keen interest in
           technology. Welcome to my portfolio website where I showcase my
           projects and share my journey.
         </p>
-        <div className="flex flex-col items-center gap-4">
-          <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out mb-2 shadow-md">
-            Contact Me
-          </button>
+        {/* <div className="flex flex-col items-center gap-4">
+        
           <a
             href="your_resume_url_here"
             target="_blank"
@@ -36,7 +34,7 @@ function Hero() {
           >
             Resume
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

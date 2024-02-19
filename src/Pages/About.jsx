@@ -75,21 +75,21 @@ function About() {
         </div>
 
         {/* Additional section to showcase your projects */}
-        <div className="max-w-4xl mx-auto text-white mb-12">
-          <h3 className="text-2xl font-bold mb-4">My Projects</h3>
+        <div className="max-w-4xl mx-auto text-center py-4  text-white mb-12">
+          <h3 className="text-2xl font-bold mb-4 py-6">Projects</h3>
           {/* Add your project components here */}
           {/* Example: */}
           <div className="flex flex-wrap justify-center">
             <ProjectCard
-              title="Project 1"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget blandit leo."
-              link="#"
+              title="MelosynthiaAI"
+              description="This project aims at generating music with the help of AI. I worked as a Web3 developer on this project."
+              link="https://melosynthiaai.vercel.app/"
             />
-            <ProjectCard
+            {/* <ProjectCard
               title="Project 2"
               description="Sed vitae lectus at tortor dictum fermentum. Mauris volutpat auctor urna, nec lacinia nibh tristique at."
               link="#"
-            />
+            /> */}
             {/* Add more project cards as needed */}
           </div>
         </div>
@@ -117,13 +117,13 @@ function TechStackItem({ image, text }) {
 
 function ProjectCard({ title, description, link }) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-blue-500">
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-700 text-base">{description}</p>
+        <div className="font-bold underline text-xl mb-2 ">{title}</div>
+        <p className="text-grey-700 text-base">{description}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <a href={link} className="text-blue-500 font-bold hover:underline">
+        <a href={link} className="text-red-500 underline font-bold hover:underline">
           View Project
         </a>
       </div>
